@@ -182,7 +182,7 @@ export function buildSvg(v: SvgView): string {
   const fy = H - 30;
   p.push(`<line x1="${PAD}" y1="${H - 58}" x2="${Wd - PAD}" y2="${H - 58}" stroke="${th.divider}"/>`);
   p.push(text(PAD, fy, "本地运行 · 不上传任何数据", { size: 14, fill: th.dim }));
-  p.push(text(Wd - PAD, fy, "github.com/<you>/cc-checkup", { size: 14, fill: th.dim, anchor: "end" }));
+  p.push(text(Wd - PAD, fy, "github.com/victor8613/cc-checkup", { size: 14, fill: th.dim, anchor: "end" }));
 
   p.push(`</svg>`);
   return p.join("\n");

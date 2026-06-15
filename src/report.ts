@@ -271,7 +271,7 @@ export function printFooter(): void {
   if (CUR.symbol === "¥") {
     console.log(c.dim(`  金额按 ¥/$ = ${CUR.rate} 估算 · 模型原始计价为美元`));
   }
-  console.log(c.dim("  本地运行 · 不上传任何数据 · github.com/<you>/cc-checkup"));
+  console.log(c.dim("  本地运行 · 不上传任何数据 · github.com/victor8613/cc-checkup"));
   console.log(c.dim("  价格表见 src/pricing.ts(DeepSeek / Fable 为占位价,请核对)"));
   console.log("");
 }

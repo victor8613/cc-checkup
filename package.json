@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<you>/cc-checkup.git"
+    "url": "git+https://github.com/victor8613/cc-checkup.git"
   },
-  "homepage": "https://github.com/<you>/cc-checkup#readme",
+  "homepage": "https://github.com/victor8613/cc-checkup#readme",
   "bugs": {
-    "url": "https://github.com/<you>/cc-checkup/issues"
+    "url": "https://github.com/victor8613/cc-checkup/issues"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2"
