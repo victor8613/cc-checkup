@@ -1,0 +1,50 @@
+{
+  "name": "cc-checkup",
+  "version": "0.1.0",
+  "description": "扒一扒你的 Claude Code 账单 — 本地解析 session,算出真实支出、订阅回本、缓存命中率。Local-only cost & cache-hit checkup for Claude Code.",
+  "type": "module",
+  "bin": {
+    "cc-checkup": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "cost",
+    "token",
+    "cache",
+    "finops",
+    "cli",
+    "llm",
+    "deepseek"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<you>/cc-checkup.git"
+  },
+  "homepage": "https://github.com/<you>/cc-checkup#readme",
+  "bugs": {
+    "url": "https://github.com/<you>/cc-checkup/issues"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

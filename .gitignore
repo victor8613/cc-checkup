@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+
+# generated report outputs — don't commit your own bill
+cc-checkup.png
+cc-checkup.svg
+card-*.png
+card-*.svg
