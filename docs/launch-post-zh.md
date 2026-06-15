@@ -51,3 +51,5 @@ npx cc-checkup --plan pro --cny
 代码在这:`github.com/victor8613/cc-checkup`(顺手 star 一下 🙏)
 
 你那边跑出来多少?评论区晒晒你的"回本倍数"。
+
+—— **Token 账房** · 把每一分 token 花在刀刃上

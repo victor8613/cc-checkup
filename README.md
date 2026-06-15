@@ -76,3 +76,7 @@ npm run build                         # 输出 dist/
 ## License
 
 MIT
+
+---
+
+由 **Token 账房** 出品 · 把每一分 token 花在刀刃上

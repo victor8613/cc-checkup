@@ -95,9 +95,10 @@ export function buildSvg(v: SvgView): string {
     `<rect x="1" y="1" width="${Wd - 2}" height="${H - 2}" rx="19" fill="none" stroke="${th.border}"/>`,
   );
 
-  // header
+  // header — title (left) + brand lockup (right)
   p.push(text(PAD, 74, "Claude Code 账单体检", { size: 32, weight: 700, fill: th.text }));
-  p.push(text(Wd - PAD, 74, "cc-checkup", { size: 18, fill: th.dim, anchor: "end" }));
+  p.push(text(Wd - PAD, 66, "Token 账房", { size: 18, weight: 600, fill: th.accent, anchor: "end" }));
+  p.push(text(Wd - PAD, 88, "把每一分 token 花在刀刃上", { size: 13, fill: th.dim, anchor: "end" }));
   p.push(`<line x1="${PAD}" y1="100" x2="${Wd - PAD}" y2="100" stroke="${th.divider}"/>`);
 
   // total (left) — billing-aware
